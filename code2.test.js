@@ -2,6 +2,10 @@
 describe('takeEveryThirdLetter', () => {
   const takeEveryThirdLetter = require('./code2');
 
+  it('is a function', () => {
+    expect(typeof takeEveryThirdLetter).toBe('function');
+  });
+
   it('returns empty string for empty input', () => {
     expect(takeEveryThirdLetter('')).toBe('');
   });

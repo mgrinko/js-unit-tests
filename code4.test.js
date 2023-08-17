@@ -2,6 +2,10 @@
 describe('explainAllTerms', () => {
   const explainAllTerms = require('./code4');
 
+  it('is a function', () => {
+    expect(typeof explainAllTerms).toBe('function');
+  });
+
   it('returns an array of term-definition pairs', () => {
     const terms = ['JavaScript', 'HTML', 'CSS'];
     const definitions = ['A programming language', 'A markup language', 'A styling language'];

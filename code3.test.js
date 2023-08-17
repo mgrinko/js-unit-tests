@@ -2,6 +2,10 @@
 describe('takeLongWords', () => {
   const takeLongWords = require('./code3');
 
+  it('is a function', () => {
+    expect(typeof takeLongWords).toBe('function');
+  });
+
   it('returns an empty array when given an empty array', () => {
     expect(takeLongWords([], 5)).toEqual([]);
   });

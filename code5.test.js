@@ -1,8 +1,12 @@
-const hasOnlyUniqueLetters = require('./code5');
-
 describe('hasOnlyUniqueLetters', () => {
+  const hasOnlyUniqueLetters = require('./code5');
+
   it('returns true for empty string', () => {
     expect(hasOnlyUniqueLetters('')).toBe(true);
+  });
+
+  it('is a function', () => {
+    expect(typeof hasOnlyUniqueLetters).toBe('function');
   });
 
   it('returns true for string with unique letters', () => {
