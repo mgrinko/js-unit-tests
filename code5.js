@@ -3,7 +3,7 @@
  *
  * @returns {boolean}
  */
-function hasOnlyUniqueLetters(str) {
+function hasOnlyUniqueCharacters(str) {
   const lowerStr = str.toLowerCase();
 
   for (const ch of lowerStr) {
@@ -15,4 +15,4 @@ function hasOnlyUniqueLetters(str) {
   return true;
 };
 
-module.exports = hasOnlyUniqueLetters;
+module.exports = hasOnlyUniqueCharacters;

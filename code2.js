@@ -3,7 +3,7 @@
  *
  * @returns {string}
  */
-function takeEveryThirdLetter(str) {
+function takeEveryThirdCharacter(str) {
     let result = '';
   
     for (let i = 2; i < str.length; i += 3) {
@@ -13,4 +13,4 @@ function takeEveryThirdLetter(str) {
     return result;
   }
 
-  module.exports = takeEveryThirdLetter;
+  module.exports = takeEveryThirdCharacter;
